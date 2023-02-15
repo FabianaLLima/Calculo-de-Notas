@@ -1,15 +1,11 @@
 import UIKit
 
-let testGradeOne = 5
-let testGradeTwo = 10
-let testGradeThree = 3
-let tesGradeFor = 8
-
-func somaNotas() -> Double {
-    let soma = testGradeOne + testGradeTwo + testGradeThree + tesGradeFor
+func calculateAverage(gradeOne: Double, gradeTwo: Double, gradeThree: Double, gradeFor: Double) -> Double {
+    let soma = gradeOne + gradeTwo + gradeThree + gradeFor
     return soma/4
  }
-somaNotas()
+calculateAverage(gradeOne: 5, gradeTwo: 7, gradeThree: 10, gradeFor: 8)
 
-// tranformar os inteiros em double é so colocaar.algum número
 
+    
+//refactor function calculate average
