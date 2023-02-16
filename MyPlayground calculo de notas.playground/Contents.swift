@@ -6,6 +6,18 @@ func calculateAverage(gradeOne: Double, gradeTwo: Double, gradeThree: Double, gr
  }
 calculateAverage(gradeOne: 5, gradeTwo: 7, gradeThree: 10, gradeFor: 8)
 
-
+func studentGrades(grades: [Double]) -> Double {
+    let sum = grades.reduce(0, +)
+    return sum/Double(grades.count)
     
-//refactor function calculate average
+}
+    
+studentGrades(grades: [5.0, 10])
+
+
+
+  
+
+
+
+
